@@ -1,0 +1,124 @@
+:root{
+    --primary-color: #ff0000;
+    --secondary-color: #ffffff;
+    --background-color: #191717;
+    --text-color: #ffffff;
+    --text-secondary-color: #aaaaaa;
+    --font-family: 'Poppins', sans-serif;
+}
+
+*{    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.video-description{
+    color: var(--text-secondary-color);
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    width: 40%;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+} 
+
+ul{
+    list-style: none;
+}
+
+img{    
+    display: inline-block;
+}
+
+button{
+    cursor: pointer;
+    border: 0.1rem solid var(--primary-color);
+    outline: none;
+    background-color: var(--secondary-color);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    width: 20px;
+}
+
+.search-form{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.1rem;
+}
+.search-input{
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--text-secondary-color);
+    padding: 0.5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    
+}
+
+.search-logo{
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
